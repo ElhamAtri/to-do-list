@@ -1,7 +1,4 @@
-/*-----------------  GOOGLE FONTS  -----------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
-
-/*-----------------  VARIABLES  -----------------*/
 :root {
     /* Colors */ 
     --orange-color: rgb(246, 99, 53);
@@ -14,9 +11,7 @@
 }
 html {
     font-size: 10px;
-    /* Now 1rem = 10px */
 }
-/*-----------------  Base  -----------------*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -26,7 +21,6 @@ html {
 body {
   background:var(--linear_gradient);
 }
-/*-----------------  Styling Start  -----------------*/
 .container {
     width: 100%;
     height: auto;
@@ -49,7 +43,6 @@ body {
     align-items: center;
     flex-direction: column;
 }
-/* --------------- Dynamic Greetings  --------------------- */
 .greetings {
     font-size: 1rem;
     color:var(--white_color);
@@ -59,18 +52,11 @@ body {
     letter-spacing: 0.1rem;
     word-spacing: 0.4rem;
 }
-/* --------------- End Dynamic Greetings  --------------------- */
-/* --------------- Date Time  --------------------- */
 .showdatetime {
     color:var(--white_color);
     width: 40rem;
     padding: 1.5rem 1rem;
 }
-
-/* --------------- End Date Time  --------------------- */
-
-/* --------------- To Do Web App  --------------------- */
-
 h2 {
   font-size: 4rem;
   color: var(--white_color);
@@ -165,6 +151,3 @@ h2 {
     margin-top: 5rem;
     display: none;
   }
-
-/* --------------- End To Do Web App  --------------------- */
- 
